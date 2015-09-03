@@ -3,6 +3,9 @@
 *.log
 node_modules/
 
+# vim temp files
+*.swp
+
 # Ignore unused verdors' files
 source/vendors/fancybox/*
 !source/vendors/fancybox/source/
