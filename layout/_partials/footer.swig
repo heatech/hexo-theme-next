@@ -7,7 +7,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
   <span class="contents-copyright">
-      {{ __('footer.contents_copyright', '<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh_TW" target="_blank">CC BY-SA 3.0 协议</a>') }}
+      {{ __('footer.contents_copyright', '<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW" target="_blank">CC BY-NC-SA 4.0 协议</a>') }}
   </span>
 </div>
 

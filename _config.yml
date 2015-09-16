@@ -19,6 +19,10 @@ keywords: "Hexo,next"
 # Set rss to specific value if you have burned your feed already.
 rss:
 
+# Copyright linces
+# Value avialable: by, by-nc, by-nc-nd, by-nc-sa, by-nd, by-sa, zero
+creative_commons: by-nc-sa
+
 # Icon fonts
 # Place your font into next/source/fonts, specify directory-name and font-name here
 # Avialable: default | linecons | fifty-shades | feather
