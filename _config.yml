@@ -2,6 +2,8 @@
 menu:
   home: /
   archives: /archives
+  coding: /categories/coding
+  life: /categories/life
   categories: /categories
   tags: /tags
   links: /links
