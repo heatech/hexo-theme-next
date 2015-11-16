@@ -4,7 +4,7 @@ menu:
   archives: /archives
   coding: /categories/coding
   life: /categories/life
-  article: /categories/article
+  #article: /categories/article
   tags: /tags
   links: /links
   about: /about
@@ -36,7 +36,7 @@ icon_font: feather
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: normal
 
 
 # MathJax Support
