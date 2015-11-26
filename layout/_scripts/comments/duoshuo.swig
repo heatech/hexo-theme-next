@@ -11,6 +11,7 @@
     (function() {
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
       ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
       ds.charset = 'UTF-8';
       (document.getElementsByTagName('head')[0]
@@ -19,7 +20,7 @@
   </script>
     {% if theme.duoshuo_info.ua_enable %}
      {% if theme.duoshuo_info.admin_enable %}
-     {% if theme.duoshuo_info.admin_nickname %}
+     {% if theme.duoshuo_info.user_id %}
   	  <script type="text/javascript">
   		var duoshuo_user_ID = {{theme.duoshuo_info.user_id}}
       var duoshuo_admin_nickname="{{theme.duoshuo_info.admin_nickname}}"
